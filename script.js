@@ -90,7 +90,7 @@ let getBrand = function(obj){
 
 let getPhone = function(obj){
     let slug = obj.querySelector('label').innerText;
-    fetch(`http://api-mobilespecs.azharimm.site/v2/${slug}`)
+    fetch(`https://api-mobilespecs.azharimm.site/v2/${slug}`,{method:"GET"})
         .then(res => res.json())
         .then(res=>{
             let obj = res.data;
