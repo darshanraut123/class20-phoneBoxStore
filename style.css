@@ -1,0 +1,188 @@
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    color: black;
+
+
+
+
+}
+ .nav{
+     min-height: 70px;
+     color:rgb(48, 13, 13);
+     background-color:  gainsboro;
+ }
+
+ .nav-dark{
+    min-height: 70px;
+    color: whitesmoke;
+    background-color: #24292f;
+
+
+
+   }
+ .heading{
+   padding: 10px 0px 0px 20px ;
+   border: none;
+ }
+ .endMode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .night-shift{
+     height: 20px;
+     width: 40px;
+     background-color: #53ff8d;
+    border-radius: 20px;
+ }
+ .on{
+   display: flex;
+   justify-content: flex-end;
+ }
+ .night-shift>div{
+    height: 18px;
+    width: 18px;
+    margin: 1px;
+    background-color: aliceblue;
+    border: 1px solid dimgray;
+    border-radius: 50%;
+ }
+
+ .banner{
+   background-color:#fefffc;
+    min-height: 50px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 0px 0px 0px 20px;
+    border-radius: 10px;
+    color:black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 20px 5px 10px; 
+    box-shadow: 10px 4px 5px 1px gainsboro;
+    transition: transform 100ms ease-in-out;
+ }
+ .banner:hover{
+   cursor: pointer;
+    transform: scale(1.05);
+}
+
+ .dark{
+   background-color: rgb(55, 61, 61);
+   color: aliceblue;
+   border: 1px solid gainsboro;
+   box-shadow: 10px 4px 5px 1px rgb(99, 91, 91);
+
+
+ }
+
+ h4{
+  font-size:1.2rem;
+  text-transform:uppercase; 
+  opacity:0.3;
+ }
+
+ .banner img{
+   margin-top: 5px;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+
+ }
+
+ 
+.leftInfo{
+  min-height: 100px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 0px;
+  padding:10px 0px 10px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.profileImg{ 
+  min-height:100px;
+  min-width:100px;
+}
+.profileImg img{
+  height: 100%;
+  width: 100%;
+  padding:5px;
+  transition: 1000ms ease-in-out;
+}
+.profileImg img:active{
+  position: absolute;
+  top: 30%;
+  left: 100%;
+  height: 100%;
+  width: 100%;
+  transform: scale(1.2);
+  cursor: pointer;
+  z-index: 1;
+
+}
+.personalInfo{
+  padding-left:30px ;
+}
+.personalInfo span{
+  line-height: 4;
+  display: block;
+
+
+}
+.mainInfo li{
+  line-height: 3;
+}
+
+.repoContainer{
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  transition: transform 100ms ease-in-out;
+  text-decoration: none;
+
+}
+.repoContainer:hover{
+  transform: none;
+}
+
+.content{
+  margin: 15px;
+  color: rgb(192 198 244);
+  background-color: #26262b;
+  border: 2px solid gainsboro;
+  box-shadow: 7px 7px 10px 10px grey;
+  border-radius: 20px;
+  padding: 10px;
+}
+.head{
+  word-wrap: break-word;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: 600;
+  margin-top: 10px;
+
+}
+.head strong{
+  font-size: small;
+  color: rgb(123 152 101);
+  text-transform: none;
+
+}
+.lis{
+  color: inherit;
+  text-transform: none;
+  font-size: 10px;
+  line-height: 1.8;
+
+}
+
+
