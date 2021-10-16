@@ -60,7 +60,6 @@ function loadAllPhones() {
 let getBrand = function(obj){
     let slug = obj.querySelector('div:last-child').innerText;
     slug=slug.split(":")[1];
-    slug=slug.trim();
     fetch('https://api-mobilespecs.azharimm.site/v2/brands/'+slug)
         .then(res => res.json())
         .then(res=>{
@@ -91,7 +90,7 @@ let getBrand = function(obj){
 
 let getPhone = function(obj){
     let slug = obj.querySelector('label').innerText;
-    fetch('http://api-mobilespecs.azharimm.site/v2/'+slug)
+    fetch(`http://api-mobilespecs.azharimm.site/v2/${slug}`)
         .then(res => res.json())
         .then(res=>{
             let obj = res.data;
